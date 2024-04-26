@@ -1,0 +1,67 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+  background: url(./images/amanda-jones-DALKPNuG3ms-unsplash.jpg);
+}
+
+span {
+  color: rgb(91, 91, 222);
+}
+h1 {
+  margin: 10px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+form {
+  box-sizing: border-box;
+  padding: 3px;
+  grid-row-start: 2;
+  display: flex;
+  gap: 20px;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  padding: 20px;
+  color: black;
+  width: 400px;
+  font-size: 20px;
+}
+
+input {
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+}
+p {
+  color: inherit;
+}
+
+.weather {
+  width: 200px;
+  height: auto;
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
